@@ -1,0 +1,9 @@
+C:\Users\João Victor\source\repos\Firebird4.5.2\bin\Debug\Firebird4.5.2.exe.config
+C:\Users\João Victor\source\repos\Firebird4.5.2\bin\Debug\Firebird4.5.2.exe
+C:\Users\João Victor\source\repos\Firebird4.5.2\bin\Debug\Firebird4.5.2.pdb
+C:\Users\João Victor\source\repos\Firebird4.5.2\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\João Victor\source\repos\Firebird4.5.2\obj\Debug\Firebird4.5.2.csproj.CoreCompileInputs.cache
+C:\Users\João Victor\source\repos\Firebird4.5.2\obj\Debug\Firebird4.5.2.csproj.CopyComplete
+C:\Users\João Victor\source\repos\Firebird4.5.2\obj\Debug\Firebird4.5.2.exe
+C:\Users\João Victor\source\repos\Firebird4.5.2\obj\Debug\Firebird4.5.2.pdb
+C:\Users\João Victor\source\repos\Firebird4.5.2\obj\Debug\Firebird4.5.2.csprojAssemblyReference.cache
