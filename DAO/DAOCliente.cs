@@ -14,7 +14,7 @@ namespace Firebird4._5._2.DAO
         MenuInicial menu = new MenuInicial();
         public void CadastrarClienteDAO(Cliente c)
         {
-            using (var connection = new FbConnection("database=localhost:c:\\repos\\Firebird\\DATABASE.FDB;user=SYSDBA;password=masterke"))
+            using (var connection = new FbConnection("database=localhost:c:\\firebird.fdb;user=SYSDBA;password=masterke"))
             {
                 connection.Open();
                 using (var transaction = connection.BeginTransaction())
@@ -56,7 +56,7 @@ namespace Firebird4._5._2.DAO
         }
         public void ListarClienteDAO(int codCli)
         {
-            using (var connection = new FbConnection("database=localhost:c:\\repos\\Firebird\\DATABASE.FDB;user=SYSDBA;password=masterke"))
+            using (var connection = new FbConnection("database=localhost:c:\\firebird.fdb;user=SYSDBA;password=masterke"))
             {
                 connection.Open();
                 using (var transaction = connection.BeginTransaction())
@@ -120,7 +120,7 @@ namespace Firebird4._5._2.DAO
         }
         public void AtualizarClienteDAO(Cliente c)
         {
-            using (var connection = new FbConnection("database=localhost:c:\\repos\\Firebird\\DATABASE.FDB;user=SYSDBA;password=masterke"))
+            using (var connection = new FbConnection("database=localhost:c:\\firebird.fdb;user=SYSDBA;password=masterke"))
             {
                 connection.Open();
                 using (var transaction = connection.BeginTransaction())

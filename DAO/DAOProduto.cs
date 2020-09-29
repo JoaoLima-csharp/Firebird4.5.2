@@ -16,7 +16,7 @@ namespace Firebird4._5._2.DAO
         MenuInicial menu = new MenuInicial();
         public void CadastrarProdutoDAO(Produto p)
         {
-            using (var connection = new FbConnection("database=localhost:c:\\repos\\Firebird\\DATABASE.FDB;user=SYSDBA;password=masterke"))
+            using (var connection = new FbConnection("database=localhost:c:\\firebird.fdb;user=SYSDBA;password=masterke"))
             {
                 connection.Open();
                 using (var transaction = connection.BeginTransaction())
@@ -58,7 +58,7 @@ namespace Firebird4._5._2.DAO
         }
         public void ListarProdutoDAO(int codProd)
         {
-            using (var connection = new FbConnection("database=localhost:c:\\repos\\Firebird\\DATABASE.FDB;user=SYSDBA;password=masterke"))
+            using (var connection = new FbConnection("database=localhost:c:\\firebird.fdb;user=SYSDBA;password=masterke"))
             {
                 connection.Open();
                 using (var transaction = connection.BeginTransaction())
@@ -123,7 +123,7 @@ namespace Firebird4._5._2.DAO
 
         public void AtualizarProdutoDAO(Produto p)
         {
-            using (var connection = new FbConnection("database=localhost:c:\\repos\\Firebird\\DATABASE.FDB;user=SYSDBA;password=masterke"))
+            using (var connection = new FbConnection("database=localhost:c:\\firebird.fdb;user=SYSDBA;password=masterke"))
             {
                 connection.Open();
                 using (var transaction = connection.BeginTransaction())

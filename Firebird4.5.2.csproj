@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Cadastro\CadastrarCliente.cs" />
     <Compile Include="Cadastro\CadastrarProduto.cs" />
+    <Compile Include="DAO\CreateDbDAO.cs" />
     <Compile Include="DAO\DAOCliente.cs" />
     <Compile Include="DAO\DAOProduto.cs" />
     <Compile Include="Entidade\Cliente.cs" />
