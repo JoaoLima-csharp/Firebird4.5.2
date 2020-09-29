@@ -1,5 +1,6 @@
 ﻿
 using Firebird4._5._2.Cadastro;
+using Firebird4._5._2.DAO;
 using Firebird4._5._2.Menu;
 using FirebirdSql.Data.FirebirdClient;
 using System;
@@ -19,6 +20,8 @@ namespace Firebird
             while (true)
             {
                 MenuInicial menu = new MenuInicial();
+                CreateDbDAO createDb = new CreateDbDAO();
+                createDb.CreateDBDAO();
                 menu.Menu();
                 Console.Clear();
             }
